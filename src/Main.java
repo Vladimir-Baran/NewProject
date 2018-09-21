@@ -18,6 +18,9 @@ public class Main {
         int a2 = 1;
         int a3;
 
+        //234234234
+
+
         for (int q = 1; q <= n ; q++){
             a3 = a1 + a2;
             if (q > n - 1) {
