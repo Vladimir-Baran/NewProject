@@ -73,20 +73,33 @@ public class Main {
 //        String wooo = "Мы жили долго и счастливо";
 //        System.out.println(wooo.length());
 //        System.out.println(wooo.substring(6, 12));
+
+
+
+//        boolean [] kod = new boolean[20];
 //
-        int [] war = new int[10];
-        war[0]=10;
-        war[2]=20;
-        war[4]=30;
-        war[5]=40;
-        war[6]=70;
-        war[8]=75;
-        war[9]=90;
-        war[1]=99;
+//        for (int i = 0; i < kod.length; i=i+2) {
+//
+//            kod[i] = true;
+//        }
+//
+//        for (int i = 0; i<kod.length; i++){
+//            System.out.println(kod[i]);
+//        }
 
-        for(int i = 0; i< war.length; i++)
-
-        System.out.println(war[i]);
+//        int [] war = new int[10];
+//        war[0]=10;
+//        war[2]=20;
+//        war[4]=30;
+//        war[5]=40;
+//        war[6]=70;
+//        war[8]=75;
+//        war[9]=90;
+//        war[1]=99;
+//
+//        for(int i = 0; i< war.length; i++)
+//
+//        System.out.println(war[i]);
 
 
 
