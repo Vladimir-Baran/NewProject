@@ -73,13 +73,47 @@ public class Main {
 //        String wooo = "Мы жили долго и счастливо";
 //        System.out.println(wooo.length());
 //        System.out.println(wooo.substring(6, 12));
+//
+        int [] war = new int[10];
+        war[0]=10;
+        war[2]=20;
+        war[4]=30;
+        war[5]=40;
+        war[6]=70;
+        war[8]=75;
+        war[9]=90;
+        war[1]=99;
 
-        String line = "Hi. My name is Serg";
-        if  (line.endsWith("Vladimir")) {
-            System.out.println("string <<" + line + ">> is ends with 'Vladimir' ");
-        } else {
-            System.out.println("string <<" + line + ">> is no ends with 'Vladimir' ");
-        }
+        for(int i = 0; i< war.length; i++)
+
+        System.out.println(war[i]);
+
+
+
+//        int [] kit = {1,4,234,456,};
+//        int d = kit.length;
+//        System.out.println(d);
+
+//        String One = "Ты рожден";
+//        String Two = "Ты рожден";
+//        String Four = "Ты рождены";
+//        System.out.println(One + Two + " : " + One.equals(Two));
+//        System.out.println(One + Two + " : " + One.equals(Four));
+
+
+//        System.out.println("result: " + "Мы Рождены С Тобой" .toUpperCase());
+
+//        String word = " Мы рождены с тобой";
+//        String result = word.toLowerCase();
+//        System.out.println("Result: " + result);
+
+
+//        String line = "Hi. My name is Serg";
+//        if  (line.endsWith("Vladimir")) {
+//            System.out.println("string <<" + line + ">> is ends with 'Vladimir' ");
+//        } else {
+//            System.out.println("string <<" + line + ">> is no ends with 'Vladimir' ");
+//        }
 //        boolean b2 = line.endsWith("Sergei");
 //        System.out.println(" Corporate " + line + " ends with 'Vladimir' " + b1);
 //        System.out.println(" Corporate " + Corporateline + " ends with 'Sergei' "+ b2);
